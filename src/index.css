@@ -97,5 +97,23 @@
 
   body {
     @apply bg-background text-foreground;
+    scroll-behavior: smooth;
+  }
+
+  /* Custom styles for medical theme */
+  .bg-gradient-medical {
+    background: linear-gradient(135deg, #0056a6 0%, #2e9bb2 100%);
+  }
+  
+  .medical-shadow {
+    box-shadow: 0 4px 20px rgba(0, 86, 166, 0.15);
+  }
+  
+  .hover-scale {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-scale:hover {
+    transform: scale(1.02);
   }
 }
