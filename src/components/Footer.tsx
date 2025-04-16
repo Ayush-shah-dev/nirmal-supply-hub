@@ -72,14 +72,18 @@ const Footer = () => {
                 <Phone className="h-5 w-5 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-white/80">{companyInfo.whatsappNumber}</span>
               </li>
-              <li className="flex items-start">
-                <Mail className="h-5 w-5 mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-white/80">info@nirmalcorp.com</span>
-              </li>
-              <li className="flex items-start">
-                <MapPin className="h-5 w-5 mr-2 flex-shrink-0 mt-0.5" />
-                <span className="text-white/80">123 Medical Plaza, Ahmedabad, Gujarat, India</span>
-              </li>
+                            <li className="flex items-start">
+  <MapPin className="h-5 w-5 mr-2 flex-shrink-0 mt-0.5" />
+  <a
+    href="https://www.google.com/maps/place/Kothari+Tower+Building/@23.0865706,72.5867303,17z/data=!3m1!4b1!4m6!3m5!1s0x395e83a69400bba5:0xa648c98d226a2bb3!8m2!3d23.0865706!4d72.5867303!16s%2Fg%2F11h8wb9cx5?entry=ttu&g_ep=EgoyMDI1MDQxMy4wIKXMDSoASAFQAw%3D%3D"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-white/80 hover:underline"
+  >
+    Kothari Tower, B-28, Ram Nagar, Sabarmati, Ahmedabad, Gujarat 380005, Ahmedabad, Gujarat, India
+  </a>
+</li>
+
               <li className="flex items-start cursor-pointer" onClick={handleWhatsAppContact}>
                 <MessageSquare className="h-5 w-5 mr-2 flex-shrink-0 mt-0.5" />
                 <span className="text-white/80 hover:text-white">Contact on WhatsApp</span>
